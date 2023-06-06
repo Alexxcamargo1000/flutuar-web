@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+ 
+}
+
+:root {
+  --pink: #EE24FF;
+  --gray-100: #ECEFF2;
+  --gray-300: #828282;
+  --gray-600: #3F3D56;
+  font-size: 62.5%;
+
+  --dots: 'Dosis', sans-serif;
+  --open: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: var(--open);
+  -webkit-font-smoothing: "antialiased";
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-block: 6.4rem;
+}
+
+main div.container {
+  max-width: 62.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+main img {
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-family: var(--dots);
+  color: var(--gray-600);
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  margin-bottom: 3.2rem;
+}
+
+h1 strong {
+  color: var(--pink);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  color: var(--gray-300);
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+
+p strong {
+  color: var(--gray-600);
+}
+
+p span {
+  font-weight: bold;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 4.2rem;
+}
+
+footer div span {
+  color: var(--gray-600);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  gap: 4.2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.imgWave {
+  width: 100%;
+  height: 10.4rem;
+  background-image: url("./assets/Wave.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
